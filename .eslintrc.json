@@ -1,0 +1,29 @@
+
+{  //字段指定了 ESLint 使用的环境。
+    "env": {
+      "node": true,
+      "commonjs": true
+    },
+    //字段指定了 ESLint 使用的解析器。
+    "parser": "vue-eslint-parser",
+    //字段指定了解析器选项。
+    "parserOptions": {
+      "ecmaVersion": 2015,
+      "requireConfigFile": false
+    },
+    //字段指定了 ESLint 应该继承的规则和配置。
+    "extends": ["eslint:recommended", "prettier"],
+    // 字段指定了 ESLint 应该使用的插件。
+    "plugins": ["@typescript-eslint"],
+    //自定义或覆盖特定的代码质量规则。
+    "rules": {
+      "semi": ["error", "always"],
+      "quotes": "off",
+      "no-console": "off",
+      "no-redeclare": "warn",
+      "no-var":"error",
+      "eqeqeq":"warn"
+    }
+  }
+ 
+ 
