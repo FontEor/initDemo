@@ -1,19 +1,15 @@
 {
-    "eslint.codeActionsOnSave.rules": null,
-    // "eslint.alwaysShowStatus": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-    ],
-    "eslint.alwaysShowStatus": true,
-    "stylelint.validate": [
-        "css",
-        "less",
-        "postcss",
-        "scss",
-        "vue",
-        "sass"
-    ],
+  "eslint.codeActionsOnSave.rules": null,
+  // "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true
 }
